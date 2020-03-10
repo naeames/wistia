@@ -1,0 +1,254 @@
+
+body {
+  margin: 0;
+}
+
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-right: 25px;
+  width: 100%;
+  background-color: white;
+  padding: 50px 0px 20px 0px;
+}
+
+.main-menu {
+  display: flex;
+  justify-content: space-between;
+  list-style: none;
+}
+
+.dropdown-menu {
+  justify-content: space-between;     padding-left: 20px;
+}
+
+.main-menu li {
+  margin: a auto;
+}
+
+.main-menu i {
+  padding: 20px 20px 0 20px;
+}
+
+
+.main-menu:hover .dropdown-content {background-color: white;
+  border-top: 1px solid grey;margin-top: 60px;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+}
+.dropdown-content li{
+  list-style: none;
+  margin-bottom: 10px;
+}
+ul.dropdown-content li a {
+  text-decoration: none;
+  color: black;
+  font-weight: 500;
+}
+.dropdown-menu:hover .dropdown-content {
+  display: flex;
+  top: 60px;
+  padding-top: 35px;
+  list-style: none;
+  width: 100%;
+  justify-content: space-around;
+  left: 0;
+}
+
+.header-btn {
+  width: 110px;
+  height: 40px;
+  border-radius: 7px;
+  color: white;
+  font-weight: bold;
+  margin: 5px;
+}
+
+.login-btn {
+  border:1px solid rgb(214, 218, 222);
+  border-width: 1px;
+  background-color: transparent;
+  color: black;
+}
+
+.getstarted-btn {
+  background-color: #3ea9f5;
+  color: white;
+}
+.createbtn {
+  background-color: #3ea9f5;
+  width: 150px;
+  height: 40px;
+  border-radius: 7px;
+  color: white;
+  font-weight: bold;
+  margin: 30px;
+}
+.main{
+    display: flex;
+    background-color: pink;
+padding-top: 200px;
+padding-bottom: 100px;
+justify-content: space-between;
+
+}
+.desc{
+
+  margin-left: 50px;
+  margin-right: 50px;
+}
+.desc p{
+  color: #363945;
+  font-size: 2.6em;
+  font-weight: 400;
+  margin-bottom: 40px;
+}
+.desc p span{
+  color: white;
+}
+.bt{
+ background-color: white;
+color: black;
+width: 200px;
+height: 80px;
+border-radius: 14px;
+font-weight: bold;
+font-size: 15px;
+border: 1px solid white;
+
+}
+.h2{
+    color:white;
+    font-size: 50px;
+    font-weight:bold;
+    margin-left: 50px;
+margin-right: 50px;
+}
+.i{font-size: 50px;color: black;
+  font-weight:bold;
+  margin-left: 50px;
+margin-right: 50px;}
+
+.video{
+    margin-left: 50px;
+margin-right: 50px;
+}
+
+section.card div {
+  flex: auto;
+  padding: 80px 58px;}
+
+.card1{background-color:#FED24A;  }
+.card2{background-color:#51C29F;}
+.card3{background-color:#3EA9F5;}
+.icon{
+    width: 55px;
+    height: 55px;
+}
+.icon1{color:#3EA9F5; }
+.icon2{color:#FFC0CB;}
+.icon3{color:#FED24A;}
+    .card{display: flex;}
+
+    .brand1{height: 170px; width: 106px;}
+    .brand2{height: 170px; width: 106px;}
+    .brand3{height: 170px; width: 106px;}
+    .brand4{height: 170px; width: 106px;}
+    .brand5{height: 170px; width: 106px;}
+
+.brandlist{ display: flex;
+  background-color: white;
+padding-top: 200px;
+padding-bottom: 100px;
+justify-content: space-around;
+
+}
+
+.img1{height: 200x; width: 300px;}
+.img2{height: 200x; width: 300px;}
+.img3{height: 200x; width: 300px;}
+
+
+
+.feature{display: flex;
+  background-color: white;}
+  .feature div {flex: auto;
+  padding: 90px 60px;}
+
+.brandlist>h2 {     color: #9CA8B7;
+  font-size: 17px;
+  font-weight:bold;
+}
+
+.bar p {display: flex;
+  justify-content: center;
+  color: #363945;
+font-size: 18px;
+}
+footer{background-color: #2A2D35;}
+.footertop{display: flex;}
+.footersoci{padding: 70px 70px;}
+.footersoci a {color:#379960;}
+.footersoci h2{color: white;
+  font-size: 30px;}
+.footersoci p {color: white;font-weight: bold;}
+.footernav {display: flex;;
+  font-weight: bold; color: #9CA8B7;padding: 80px 58px;
+  font-size: 11px;
+  font-weight: 800;}
+.footernav a {
+  color: white;
+  font-size: 15px;
+}
+.footernav li{margin-bottom: 10px;
+  margin-top: 10px;}
+
+.card button {font-size: 18px;height: 60px;; border-color: white;background-color: transparent; border-radius: 5px;
+; border-color: white;}
+.card button a{color: black;text-decoration: none;}
+.card button:hover {background: white;}
+.card button:hover ~ .icon{
+  color: white;
+}
+section.card div {
+  display: flex;
+  flex-direction: column;
+  flex: 1;
+}
+
+section.card div button {
+  order: 10;
+  width: 170px;
+  border: 1px solid wheat;
+}
+.copyright{color: white;
+  display: flex;
+  justify-content: center;}
+  section.card h2 {
+    color: white;
+    font-weight: 900;
+}
+
+section.card p {
+    font-size: 20px;
+    line-height: 28px;
+}
+
+section.card div p a {
+    color: black;
+}
+    
+.dropdown-content li span {
+  text-transform: uppercase;
+  color: rgb(91, 107, 127);
+  font-size: 11px;
+  font-weight: 600;
+  letter-spacing: 0.5px;
+  margin-bottom: 15px;
+  opacity: 0.7;
+}
+
