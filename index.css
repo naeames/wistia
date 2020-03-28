@@ -16,12 +16,9 @@ nav {
 .main-menu {
   display: flex;
   justify-content: space-between;
-  list-style: none;
+  list-style: none;  justify-content: space-between;     padding-left: 20px;
 }
 
-.dropdown-menu {
-  justify-content: space-between;     padding-left: 20px;
-}
 
 .main-menu li {
   margin: a auto;
@@ -32,7 +29,7 @@ nav {
 }
 
 
-.main-menu:hover .dropdown-content {background-color: white;
+.dropdown:hover .dropdown-content {background-color: white;
   border-top: 1px solid grey;margin-top: 60px;
 }
 
@@ -40,7 +37,7 @@ nav {
   display: none;
   position: absolute;
 }
-.dropdown-content li{
+.dropdown-content li {
   list-style: none;
   margin-bottom: 10px;
 }
@@ -49,7 +46,7 @@ ul.dropdown-content li a {
   color: black;
   font-weight: 500;
 }
-.dropdown-menu:hover .dropdown-content {
+.dropdown:hover .dropdown-content {
   display: flex;
   top: 60px;
   padding-top: 35px;
@@ -58,7 +55,6 @@ ul.dropdown-content li a {
   justify-content: space-around;
   left: 0;
 }
-
 .header-btn {
   width: 110px;
   height: 40px;
